@@ -1,0 +1,40 @@
+import styles from './navbar.module.css'
+import { LuShoppingCart, LuUserRound, LuMenu, LuHouse, LuLaptopMinimalCheck   } from "react-icons/lu"
+import { Drawer } from '@mui/material'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
+export default function Navbar() {
+    const [openMenu, setOpenMenu] = useState(false)
+
+    return (
+        <nav className={styles.navbarContainer}>
+            {/* DESKTOP */}
+            <div className={styles.navbarItems}>
+                <div className={styles.navbarLeft}>
+                </div>
+
+                <div className={styles.navbarRight}>
+                    
+                    <Link to="/"><LuHouse className={styles.navbarIcon} /></Link>
+                </div>
+            </div>
+
+            {/* MOBILE */}
+            <div className={styles.mobileNavbarItems}>
+                
+
+                <LuMenu
+                    className={styles.navbarIcon}
+                    onClick={() => setOpenMenu(!openMenu)}
+                />
+            </div>
+
+            <Drawer anchor="right" open={openMenu} onClose={() => setOpenMenu(false)}>
+                <div className={styles.drawer}>
+                    <Link to="/" className={styles.drawerLink}>Home</Link>
+                </div>
+            </Drawer>
+        </nav>
+    )
+}
