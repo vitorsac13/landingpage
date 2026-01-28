@@ -1,4 +1,5 @@
 import styles from './navbar.module.css'
+import logo from "../../assets/logo.png"
 import { LuShoppingCart, LuUserRound, LuMenu, LuHouse, LuLaptopMinimalCheck   } from "react-icons/lu"
 import { Drawer } from '@mui/material'
 import { useState } from 'react'
@@ -12,11 +13,17 @@ export default function Navbar() {
             {/* DESKTOP */}
             <div className={styles.navbarItems}>
                 <div className={styles.navbarLeft}>
+                    <Link to="/"><img src={logo} alt="Logo" className={styles.logo}/></Link>
+                </div>
+
+                <div className={styles.navbarCenter}>
+                    <Link to="/about" className={styles.navbarLink}>A REAL PHARMA</Link>
+                    <Link to="/products" className={styles.navbarLink}>PRODUTOS</Link>
+                    <Link to="/health" className={styles.navbarLink}>SAÚDE E BEM-ESTAR</Link>
+                    <Link to="/contact" className={styles.navbarLink}>CONTATO</Link>
                 </div>
 
                 <div className={styles.navbarRight}>
-                    
-                    <Link to="/"><LuHouse className={styles.navbarIcon} /></Link>
                 </div>
             </div>
 
