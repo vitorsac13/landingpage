@@ -3,7 +3,7 @@ import generico from "../../assets/generico.png"
 
 export default function Products(){
 
-    // Lista de medicamentos (mock local)
+    // Lista de medicamentos
   const medicamentos = [
     { nome: "Aripiprazol", dose: "10mg", qtd: "30 cápsulas", img: generico},
     { nome: "Cloridrato de Venlafaxina", dose: "75mg", qtd: "30 cápsulas", img: generico},

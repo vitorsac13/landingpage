@@ -1,0 +1,106 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #1e88e5, #43a047);
+  color: white;
+  padding: 90px 12%;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* PRODUTO PRINCIPAL */
+.productSection {
+  padding: 80px 12%;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.imageBox img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.infoBox h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.infoBox p {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.infoBox button {
+  margin-top: 15px;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 25px;
+  background: #1e88e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.infoBox button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* SEÇÕES DE TEXTO */
+.textSection {
+  padding: 50px 12%;
+}
+
+.textSection h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.textSection p,
+.textSection li {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.textSection ul {
+  margin-left: 20px;
+}
+
+/* DISCLAIMER */
+.disclaimer {
+  background: #f4f6f8;
+  padding: 30px 12%;
+  border-top: 3px solid #1e88e5;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .productSection {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .imageBox img {
+    margin: auto;
+  }
+}
