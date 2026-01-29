@@ -1,23 +1,13 @@
+import { useParams } from "react-router-dom"
+import { medicamentos } from "../../data/medicamentos"
 import styles from "./page.module.css"
-import genericoImg from "../../assets/generico.png"
 
 export default function Product() {
+  const { id } = useParams()
 
-  // Mock do produto (depois você pode pegar por API ou params)
-  const produto = {
-    nome: "Aripiprazol",
-    dose: "10mg",
-    apresentacao: "30 cápsulas",
-    descricao:
-      "O Aripiprazol é um medicamento antipsicótico atípico indicado para o tratamento de transtornos mentais, conforme orientação médica.",
-    indicacoes: [
-      "Esquizofrenia",
-      "Transtorno bipolar",
-      "Adjunto no tratamento de depressão"
-    ],
-    composicao: "Cada cápsula contém 10mg de aripiprazol.",
-    img: genericoImg
-  }
+  const produto = medicamentos.find(m => m.id === Number(id))
+
+  if (!produto) return <h2 className={styles.notFound}>Produto não encontrado</h2>
 
   return (
     <div className={styles.container}>
@@ -25,7 +15,7 @@ export default function Product() {
       {/* HERO */}
       <section className={styles.hero}>
         <h1>{produto.nome} {produto.dose}</h1>
-        <p>Medicamento genérico Real Pharma</p>
+        <p>Medicamento Genérico Real Pharma</p>
       </section>
 
       {/* PRODUTO PRINCIPAL */}
@@ -37,7 +27,7 @@ export default function Product() {
         <div className={styles.infoBox}>
           <h2>{produto.nome}</h2>
           <p><strong>Dosagem:</strong> {produto.dose}</p>
-          <p><strong>Apresentação:</strong> {produto.apresentacao}</p>
+          <p><strong>Apresentação:</strong> {produto.qtd}</p>
 
           <button>Solicitar informações</button>
         </div>
@@ -53,8 +43,8 @@ export default function Product() {
       <section className={styles.textSection}>
         <h3>Indicações</h3>
         <ul>
-          {produto.indicacoes.map((item, index) => (
-            <li key={index}>{item}</li>
+          {produto.indicacoes.map((i, index) => (
+            <li key={index}>{i}</li>
           ))}
         </ul>
       </section>
@@ -68,8 +58,8 @@ export default function Product() {
       {/* DISCLAIMER */}
       <section className={styles.disclaimer}>
         <p>
-          Este produto é um medicamento. Seu uso deve ser orientado por um profissional de saúde.
-          Consulte a bula e o médico ou farmacêutico.
+          Este medicamento deve ser utilizado somente sob orientação médica ou farmacêutica.
+          Leia a bula antes de usar.
         </p>
       </section>
 

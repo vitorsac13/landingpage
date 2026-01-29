@@ -20,7 +20,7 @@ const pages = createBrowserRouter([
 			{ path: '/about', element: <About /> },
 			{ path: '/health', element: <Health /> },
 			{ path: '/products', element: <Products /> },
-			{ path: '/product', element: <Product /> },
+			{ path: '/product/:id', element: <Product /> },
 			{ path: '/contact', element: <Contact /> },
 		]
 	}
