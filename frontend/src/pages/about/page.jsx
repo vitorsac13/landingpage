@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import { FaPills, FaHeartbeat, FaCheckCircle } from "react-icons/fa"
 
 export default function About(){
 

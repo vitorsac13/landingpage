@@ -8,6 +8,7 @@ import Home from './pages/home/page.jsx'
 import About from './pages/about/page.jsx'
 import Products from './pages/products/page.jsx'
 import Health from './pages/health/page.jsx'
+import Contact from './pages/contact/page.jsx'
 
 const pages = createBrowserRouter([
 	{

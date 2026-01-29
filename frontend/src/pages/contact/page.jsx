@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
 
 export default function Contact(){
 
@@ -24,7 +25,7 @@ export default function Contact(){
         <div className={styles.infoCard}>
           <FaEnvelope className={styles.icon} />
           <h3>Email</h3>
-          <p>contato@realpharma.com.br</p>
+          <p>contato@real.pharma</p>
         </div>
 
         <div className={styles.infoCard}>

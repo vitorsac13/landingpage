@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import { FaHeartbeat, FaBrain, FaLeaf, FaRunning } from "react-icons/fa"
 
 export default function Health(){
 

@@ -5,7 +5,10 @@ import {
   FaLeaf,
   FaUserMd,
   FaCheckCircle,
-  FaShieldAlt
+  FaShieldAlt,
+  FaFacebookF, 
+  FaInstagram, 
+  FaLinkedinIn
 } from "react-icons/fa"
 
 export default function Home() {
@@ -93,6 +96,21 @@ export default function Home() {
           Nossa missão é oferecer medicamentos confiáveis para todas as pessoas.
         </p>
         <button>Fale conosco</button>
+
+        {/* REDES SOCIAIS */}
+        <div className={styles.socialIcons}>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF />
+          </a>
+
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+          </a>
+        </div>
       </section>
 
       {/* FOOTER */}
