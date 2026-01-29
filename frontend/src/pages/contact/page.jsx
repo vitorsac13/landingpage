@@ -31,7 +31,7 @@ export default function Contact(){
         <div className={styles.infoCard}>
           <FaMapMarkerAlt className={styles.icon} />
           <h3>Endereço</h3>
-          <p>São Paulo - SP, Brasil</p>
+          <p>Botucatu - SP, Brasil</p>
         </div>
       </section>
 
