@@ -1,5 +1,4 @@
 import styles from './page.module.css'
-import { FaPills } from "react-icons/fa"
 import generico from "../../assets/generico.png"
 
 export default function Products(){
