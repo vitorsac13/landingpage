@@ -56,10 +56,15 @@
   box-shadow: 0 20px 35px rgba(0,0,0,0.15);
 }
 
-.icon {
-  font-size: 3rem;
-  color: #1e88e5;
+.productImage {
+  width: 80px;
+  height: auto;
   margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .productImage {
+  transform: scale(1.08);
 }
 
 .card h3 {
