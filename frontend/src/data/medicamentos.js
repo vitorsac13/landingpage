@@ -5,7 +5,7 @@ export const medicamentos = [
     id: 1,
     nome: "Antidoto T-Virus",
     dose: "5ml",
-    qtd: "1",
+    qtd: "1 ampola",
     descricao: "Antidoto para a infecção com T-Virus.",
     indicacoes: ["Zombificação", "Mutação"],
     composicao: "Cada seringa contém 5ml de antidoto.",
