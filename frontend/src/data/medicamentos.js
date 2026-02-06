@@ -3,6 +3,16 @@ import generico from "../assets/generico.png"
 export const medicamentos = [
   {
     id: 1,
+    nome: "Antidoto T-Virus",
+    dose: "5ml",
+    qtd: "1",
+    descricao: "Antidoto para a infecção com T-Virus.",
+    indicacoes: ["Zombificação", "Mutação"],
+    composicao: "Cada seringa contém 5ml de antidoto.",
+    img: generico
+  },
+  {
+    id: 2,
     nome: "Aripiprazol",
     dose: "10mg",
     qtd: "30 cápsulas",
@@ -12,7 +22,7 @@ export const medicamentos = [
     img: generico
   },
   {
-    id: 2,
+    id: 3,
     nome: "Cloridrato de Venlafaxina",
     dose: "75mg",
     qtd: "30 cápsulas",
@@ -22,7 +32,7 @@ export const medicamentos = [
     img: generico
   },
   {
-    id: 3,
+    id: 4,
     nome: "Cloridrato de Venlafaxina",
     dose: "150mg",
     qtd: "30 cápsulas",
@@ -32,7 +42,7 @@ export const medicamentos = [
     img: generico
   },
   {
-    id: 4,
+    id: 5,
     nome: "Paracetamol",
     dose: "500mg",
     qtd: "30 cápsulas",
@@ -42,7 +52,7 @@ export const medicamentos = [
     img: generico
   },
   {
-    id: 5,
+    id: 6,
     nome: "Dipirona",
     dose: "1g",
     qtd: "20 cápsulas",
@@ -52,7 +62,7 @@ export const medicamentos = [
     img: generico
   },
   {
-    id: 6,
+    id: 7,
     nome: "Ibuprofeno",
     dose: "400mg",
     qtd: "10 cápsulas",
@@ -62,7 +72,7 @@ export const medicamentos = [
     img: generico
   },
   {
-    id: 7,
+    id: 8,
     nome: "Maleato de Dexclorfeniramina",
     dose: "2mg",
     qtd: "20 cápsulas",
