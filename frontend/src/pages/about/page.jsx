@@ -54,15 +54,6 @@ export default function About(){
         </div>
       </section>
 
-      {/* CTA */}
-      <section className={styles.cta}>
-        <h2>Compromisso com a Saúde</h2>
-        <p>
-          Trabalhamos todos os dias para oferecer confiança e bem-estar a milhões
-          de pessoas.
-        </p>
-      </section>
-
     </div>
   )
   
