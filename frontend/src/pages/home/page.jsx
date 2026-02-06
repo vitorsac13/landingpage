@@ -89,35 +89,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className={styles.cta}>
-        <h2>Compromisso com a sua saúde</h2>
-        <p>
-          Nossa missão é oferecer medicamentos confiáveis para todas as pessoas.
-        </p>
-        <button>Fale conosco</button>
-
-        {/* REDES SOCIAIS */}
-        <div className={styles.socialIcons}>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF />
-          </a>
-
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
-          </a>
-
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn />
-          </a>
-        </div>
-      </section>
-
-      {/* FOOTER */}
-      <footer className={styles.footer}>
-        <p>© 2026 Umbrella Pharma — Todos os direitos reservados</p>
-      </footer>
-
     </div>
   )
 }
