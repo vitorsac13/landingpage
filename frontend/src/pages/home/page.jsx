@@ -18,7 +18,7 @@ export default function Home() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
-          <h1>Real Pharma</h1>
+          <h1>Umbrella Pharma</h1>
           <p>
             Cuidando da sua saúde com qualidade, confiança e medicamentos
             acessíveis.
@@ -115,7 +115,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className={styles.footer}>
-        <p>© 2026 Real Pharma — Todos os direitos reservados</p>
+        <p>© 2026 Umbrella Pharma — Todos os direitos reservados</p>
       </footer>
 
     </div>
