@@ -28,7 +28,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <p>© 2026 Clinica — Todos os direitos reservados</p>
+            <p>© 2026 Umbrella Pharma — Todos os direitos reservados</p>
         </footer>
     )
 }
