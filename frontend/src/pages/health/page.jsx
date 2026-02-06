@@ -69,14 +69,6 @@ export default function Health(){
         </p>
       </section>
 
-      {/* CTA */}
-      <section className={styles.cta}>
-        <h2>Compromisso com a Vida</h2>
-        <p>
-          Nossa missão é promover saúde com qualidade, confiança e responsabilidade social.
-        </p>
-      </section>
-
     </div>
   )
   
