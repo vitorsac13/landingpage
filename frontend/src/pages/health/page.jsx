@@ -18,7 +18,7 @@ export default function Health(){
       <section className={styles.section}>
         <h2>Cuidar da saúde é investir no futuro</h2>
         <p>
-          A Real Pharma acredita que saúde vai além de medicamentos. Envolve hábitos
+          A Umbrella Pharma acredita que saúde vai além de medicamentos. Envolve hábitos
           saudáveis, prevenção, equilíbrio emocional e acompanhamento profissional.
         </p>
       </section>
@@ -63,7 +63,7 @@ export default function Health(){
       <section className={styles.textSection}>
         <h2>Nossa atuação em Saúde & Bem-Estar</h2>
         <p>
-          A Real Pharma investe em educação em saúde, campanhas de prevenção e
+          A Umbrella Pharma investe em educação em saúde, campanhas de prevenção e
           desenvolvimento de medicamentos genéricos seguros e acessíveis, contribuindo
           para o bem-estar da população.
         </p>
