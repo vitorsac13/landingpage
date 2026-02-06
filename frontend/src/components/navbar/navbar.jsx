@@ -1,6 +1,6 @@
 import styles from './navbar.module.css'
 import logo from "../../assets/logo.png"
-import { LuShoppingCart, LuUserRound, LuMenu, LuHouse, LuLaptopMinimalCheck   } from "react-icons/lu"
+import { LuMenu } from "react-icons/lu"
 import { Drawer } from '@mui/material'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -17,7 +17,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={styles.navbarCenter}>
-                    <Link to="/about" className={styles.navbarLink}>A REAL PHARMA</Link>
+                    <Link to="/about" className={styles.navbarLink}>SOBRE NÓS</Link>
                     <Link to="/products" className={styles.navbarLink}>PRODUTOS</Link>
                     <Link to="/health" className={styles.navbarLink}>SAÚDE E BEM-ESTAR</Link>
                     <Link to="/contact" className={styles.navbarLink}>CONTATO</Link>
