@@ -10,7 +10,7 @@ export default function Contact(){
       <section className={styles.hero}>
         <h1>Contato</h1>
         <p>
-          Entre em contato com a Real Pharma. Estamos prontos para atender você.
+          Entre em contato com a Umbrella Pharma. Estamos prontos para atender você.
         </p>
       </section>
 
@@ -25,7 +25,7 @@ export default function Contact(){
         <div className={styles.infoCard}>
           <FaEnvelope className={styles.icon} />
           <h3>Email</h3>
-          <p>contato@real.pharma</p>
+          <p>contato@umbrella.pharma</p>
         </div>
 
         <div className={styles.infoCard}>
