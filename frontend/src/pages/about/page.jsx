@@ -10,7 +10,7 @@ export default function About(){
       <section className={styles.hero}>
         <h1>Quem Somos</h1>
         <p>
-          A Real Pharma é uma empresa farmacêutica dedicada à produção de
+          A Umbrella Pharma é uma empresa farmacêutica dedicada à produção de
           medicamentos genéricos com qualidade, segurança e acessibilidade.
         </p>
       </section>
@@ -19,7 +19,7 @@ export default function About(){
       <section className={styles.section}>
         <h2>Nossa História</h2>
         <p>
-          A Real Pharma nasceu com o propósito de democratizar o acesso à saúde,
+          A Umbrella Pharma nasceu com o propósito de democratizar o acesso à saúde,
           oferecendo medicamentos genéricos com a mesma eficácia dos
           medicamentos de referência, seguindo rigorosos padrões de qualidade.
         </p>
