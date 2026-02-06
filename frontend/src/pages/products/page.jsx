@@ -18,7 +18,7 @@ export default function Products(){
 
       {/* GRID DE PRODUTOS */}
       <section className={styles.productsSection}>
-        <h2>Medicamentos Genéricos Real Pharma</h2>
+        <h2>Medicamentos Genéricos Umbrella Pharma</h2>
 
         <div className={styles.grid}>
           {medicamentos.map((med) => (
