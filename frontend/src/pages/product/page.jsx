@@ -15,7 +15,7 @@ export default function Product() {
       {/* HERO */}
       <section className={styles.hero}>
         <h1>{produto.nome} {produto.dose}</h1>
-        <p>Medicamento Genérico Real Pharma</p>
+        <p>Medicamento Genérico Umbrella Pharma</p>
       </section>
 
       {/* PRODUTO PRINCIPAL */}
